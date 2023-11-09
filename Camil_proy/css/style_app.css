@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+
+/*font-family: 'Roboto Serif', serif;*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Serif', serif;
+}
+body{
+    background: rgba(0, 234, 220, 1);
+    background: -webkit-linear-gradient(to bottom,rgba(0, 234, 220, 1), #0C3DEB);
+    background: linear-gradient(to bottom, rgba(0, 234, 220, 1), #0C3DEB); 
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#general_section{
+    display: flex;
+    width: 90%;
+    margin: 5vh 5%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 25px 45px rgba(0,0,0,0,0.5);
+    box-shadow: 0 15px 50px rgb(0,0,0,0.1);
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px -1px rgba(76, 76, 76, 0.75);
+}
+/*estilos del menu lateral izquierdo*/
+#general_section .left_menu{
+    width: 120px;
+    height: 100%;
+    border-right: 1.5px dotted #e1e1e1;
+    border-radius: 20px 0px 0px 20px;
+}
+#general_section img{
+    width: 60%;
+    height: auto;
+    
+}
+#general_section nav{
+    margin-top: 120px;
+    text-align: center;
+}
+#general_section li{
+    margin: 15px auto;
+    list-style: none;
+}
+#general_section .fa-solid{
+    width: 100px;
+    color: #ffffff;
+    font-size: 28px;
+    height: 60px;
+}
+#general_section .fa-solid:hover{
+    color: aqua;
+}
+#general_section .exit{
+    width: 100%;
+    margin-top: 110px;
+    font-size: 35px;
+    text-align: center;
+}
+
+/*estilos del menu central*/
+
+#general_section .central{
+    width: calc(100% - 420px);
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 25px 45px rgba(0,0,0,0,0.5);
+    box-shadow: 0 15px 50px rgb(0,0,0,0.1);
+    border-radius: 9px;
+}
+
+/*Estilos del menu lateral derecho*/
+
+#general_section .right_menu{
+    width: 300px;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+#general_section .right_menu .profile{
+    text-align: center;
+    margin-top: 100px;
+}
+#general_section .right_menu .profile img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+#general_section .right_menu .profile p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+}
+#general_section .right_menu .profile span{
+    font-weight: normal;
+    font-size: 13px;
+    color: rgb(5, 5, 5);
+}
+
+.last_tras{
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+.last_tras h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.last_tras span{
+    color: #202d39c4 !important;
+    font-weight: bold;
+}
+.last_tras .t_i span, .last_tras .t_i p{
+    margin: 7px auto;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+/*Tabla */
+a{
+    text-decoration: none;
+}
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0,0.5);
+    box-shadow: 0 15px 50px rgb(0,0,0,0.1);
+    padding: 75px 50px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+h2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.barra__buscador{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .input__text{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #848688;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    max-width: 30%;
+    margin-right: 10px;
+    outline: medium none;
+}
+
+
+form .input__text:focus{
+    border: 1px solid #1b743c;
+}
+form .form-group{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+form .form-group .input__text{
+    max-width: 45% !important;
+}
+
+
+form .btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    background: rgb(3, 113, 163);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+.btn__nuevo{
+    float: right;
+    background: #1b743c !important;
+}
+
+.btn__nuevo:hover{
+    float: right;
+    background: #05f15b !important;
+}
+
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn__primary{
+    background: rgb(3, 113, 163);
+}
+.btn__danger{
+    background: #8a0505 !important;
+}
+
+.btn:hover{
+    background: #05e605;
+}
+
+
+/* table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-left: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 30px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0,0.5);
+    box-shadow: 0 15px 50px rgb(0,0,0,0.1);
+    
+}
+table .head td{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    border:1.2px solid #ffffff;
+    padding: 7px;
+    font-size: 14px;
+    color: #131313;
+}
+
+.btn__update{
+    display: inline-block;
+    font-size: 14px;
+    background: #1b743c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__delete{
+    display: inline-block;
+    font-size: 14px;
+    background: #8a0505;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.central img{
+    width: 500px !important;
+}
+
+.left_menu img{
+    margin-top: 20px;
+    margin-left: 22px;;
+}
+
